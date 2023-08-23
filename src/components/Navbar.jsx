@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, downloadIcon } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Joseph &nbsp;
+            <span className='sm:block hidden'> | Codes</span>
           </p>
         </Link>
 
@@ -61,6 +61,12 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className='relative'>
+      <a href='/asset/resume.pdf' download className='flex items-center'>
+        <div className='h-5 w-[1px] bg-white mx-2'></div> {/* The separator */}
+        <img src={downloadIcon} alt='Download CV' className='w-5 h-5 ml-2' />
+      </a>
+    </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +97,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className='relative'>
+  <a href='/asset/resume.pdf' download="resume.pdf" className='flex items-center'>
+    <div className='h-5 w-[1px] bg-white mx-2'></div> {/* The separator */}
+    <img src={downloadIcon} alt='Download CV' className='w-5 h-5 ml-2' />
+  </a>
+</li>
+
+
             </ul>
           </div>
         </div>

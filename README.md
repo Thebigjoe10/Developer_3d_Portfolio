@@ -1,20 +1,27 @@
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
+
 ![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
 
 ## Introduction
-The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
- 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+The most impressive websites in the world use 3D graphics and animations to bring their content to life.
+
+In this project, i leverage the capabilities of the following tools and libraries:
+
+- ThreeJS: Harness the power of ThreeJS, a versatile 3D graphics library, to render and animate intricate 3D models seamlessly.
+
+- React Three Fiber: Dive into React Three Fiber, a popular library that integrates ThreeJS into React, allowing you to effortlessly create captivating 3D graphics.
+
+- TailwindCSS: Utilize TailwindCSS, a utility-first CSS framework, to streamline and enhance the styling of your project. This framework empowers you to create dynamic and responsive designs efficiently.
+
+- Framer Motion: Enrich your project with engaging animations using Framer Motion, a widely-used library that breathes life into your React-based user interface.
+
+- Throughout the development process, i accomplish the following objectives:
+
+- Customized 3D Models: Employ ThreeJS to load, generate, and customize intricate 3D models and geometries. Dive into the realm of dynamic lighting effects and grasp the art of positioning objects within the 3D environment.
+
+- Code Reusability and Scalability: Embrace coding best practices such as Higher Order Components (HOCs) to ensure your code remains modular, reusable, and adaptable as the project evolves.
+
+- Email Integration: Seamlessly integrate an email functionality into your project, allowing users to conveniently send emails via a well-crafted and user-centric form.
+
+- Responsive Design and Performance Optimization: Implement responsive design principles across various devices, utilizing techniques like Suspense and Preload to ensure optimal performance and reduced load times. This approach guarantees a seamless user experience throughout the project.

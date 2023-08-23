@@ -13,15 +13,14 @@ import {
   nodejs,
   mongodb,
   git,
+  frontend,
+  bootstrap,
+  Hotel,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  ctop,
+  openSource,
+  terra,
+  upwork,
   threejs,
 } from "../assets";
 
@@ -48,6 +47,10 @@ const services = [
   {
     title: "React Native Developer",
     icon: mobile,
+  },
+  {
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",
@@ -89,6 +92,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -108,45 +115,28 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer Intern",
+    company_name: "Terra Learning",
+    icon: terra,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - Jun 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Crafting dynamic web applications using React.js and its complementary technologies.",
+"Engaging with cross-functional squads encompassing designers, product managers, and developers to deliver real-time, premium products.",
+"Enforcing responsive design principles and ensuring seamless performance across diverse browsers.",
+"Taking an active role in code evaluations and furnishing constructive insights to fellow developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Ctop",
+    icon: ctop,
+    iconBg: "#E6DEDD",
+    date: "Aug 2021 - ",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,16 +145,28 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer",
+    company_name: "Remote Developers OpenSource Github",
+    icon: openSource,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Present",
+    points: [
+      "Pioneered a critical open-source React.js library, garnering a dedicated user base and fostering community engagement, evident in a significant increase in stars, forks, and active discussions on GitHub.",
+      "Revitalized the user interface of a prominent open-source project, leveraging cutting-edge frontend technologies to enhance usability and accessibility, resulting in a marked uptick in adoption and positive user feedback.",
+      "Led a collaborative effort within the open-source community to address a pressing compatibility issue between React.js and a major browser, earning commendation for playing a pivotal role in resolving the challenge and ensuring a smoother user experience.",
+    ],
+  },
+  {
+    title: "Freelance Frontend Developer",
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      'Independently designing, and developing web applications using React.js and complementary technologies, showcasing a track record of self-driven project completion and client satisfaction.',
+      "Successfully translating client visions into reality by meticulously crafting web applications with React.js, achieving not only functional excellence but also exceeding expectations in terms of aesthetics and user experience.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Earning a reputation for swift problem-solving as evidenced by consistently identifying and rectifying complex bugs and technical glitches within web applications, minimizing downtime and ensuring seamless functionality.",
     ],
   },
 ];
@@ -172,7 +174,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Joe proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +182,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Joe does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +190,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Joe optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,67 +200,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+    name: "JJ-Hotel Resort",
+    description:"A Web-based hub where users can effortlessly explore, book, and oversee your perfect hotel escape. Discover accommodations, amenities, and book stress-free. Your journey begins here.",
+    tags:[
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      name:"react",
+      color:"blue-text-gradient",
+    },
+    {
+      name:"bootstrap",
+      color:"pink-text-gradient",
+    },
+    {
+      name: "mongodb",
+     color: "green-text-gradient",
+     },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Hotel,
+    live_link:"https://guileless-sundae.netlify.app/",
+    source_code_link: "https://github.com/Thebigjoe10/jj-hotel-resort",
   },
 ];
 

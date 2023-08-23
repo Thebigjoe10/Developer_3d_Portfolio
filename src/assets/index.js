@@ -6,9 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import Live from "./live.png"
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,27 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bootstrap from "./tech/bootstrap-5.png"
+import ctop from "./company/ctop.png"
+import openSource from './company/openSource.png'
+import terra from "./company/terra.png"
+import upwork from "./company/upwork.png"
+import frontend from "./frontend.png";
+import Hotel from "./JJ-Hotel-Resort.png";
+import downloadIcon from "./download.svg"
 
 export {
   logo,
   backend,
   creator,
+  Hotel,
   mobile,
+  Live,
   web,
   github,
   menu,
   close,
+  downloadIcon,
+  frontend,
   css,
-  docker,
   figma,
   git,
   html,
@@ -52,11 +54,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bootstrap,
+  ctop,
+  openSource,
+  terra,
+  upwork,
 };

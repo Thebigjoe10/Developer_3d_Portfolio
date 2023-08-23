@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from 'react-type-animation';
+
 
 const Hero = () => {
   return (
@@ -15,14 +17,24 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
-        </div>
+   <h1 className={`${styles.heroHeadText} text-white`}>
+    Hi, I'm <span className='text-[#915EFF]'>Joseph</span>
+  </h1>
+  <TypeAnimation
+        sequence={[
+          "I'm a Developer",
+          1000,
+          "I'm a Writer",
+          1000,
+          "I'm a Designer",
+          1000,
+        ]}
+        speed={50}
+        repeat={Infinity}
+        style={{ fontSize: '2em' }}
+      />
+    </div>
+
       </div>
 
       <ComputersCanvas />
