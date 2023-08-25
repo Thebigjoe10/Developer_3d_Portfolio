@@ -1,6 +1,6 @@
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
 
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+![3D Portfolio](https://awesomescreenshot.s3.amazonaws.com/image/4683026/42484598-0b225ba26bd06667c1fefa32487567f0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230825T214457Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=417cd20171142fc1fcc919c7718f4d9950e2c988851b6d0f9c23493b7032e3e4)
 
 ## Introduction
 
