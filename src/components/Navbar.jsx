@@ -122,8 +122,6 @@ const Navbar = () => {
     <img src={downloadIcon} alt='Download CV' className='w-5 h-5 ml-2' />
   </a>
 </li>
-
-
             </ul>
           </div>
         </div>
