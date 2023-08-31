@@ -81,7 +81,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className='relative'>
-      <a href='/public/asset/Resume-Joseph-NG.pdf' download="resume.pdf" title="CV" className='flex items-center'>
+      <a href='asset/Resume-Joseph-NG.pdf' download="resume.pdf" title="CV" className='flex items-center'>
         <div className='h-5 w-[1px] bg-white mx-2'></div> {/* The separator */}
         <img src={downloadIcon} alt='Download CV' className='w-5 h-5 ml-2' />
       </a>
